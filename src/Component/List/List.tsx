@@ -5,15 +5,13 @@ const List = ({items, onClick }:{
         onClick: (item: string) => void;
     }) => {
     return (
-        <div>
-           {
+        <div> {
                items.map((item, index)=>(
                    <li key={index} onClick={()=> onClick(item)}>
 {item}
                    </li>
                ))
-           }
-        </div>
+           } </div>
     );
 };
 
