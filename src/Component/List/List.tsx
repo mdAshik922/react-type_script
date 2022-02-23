@@ -1,9 +1,8 @@
 import React from 'react';
 
-const List = ({items, onClick}  {
-    items: string[],
-    onClick: () => void;
-}) => {
+const List = (
+    
+) => {
     return (
         <div>
             List
