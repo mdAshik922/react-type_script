@@ -6,7 +6,11 @@ const List = ({items, onClick }:{
     }) => {
     return (
         <div>
-            List
+           {
+               items.map((item, index)=>(
+                   
+               ))
+           }
         </div>
     );
 };
