@@ -8,7 +8,9 @@ const List = ({items, onClick }:{
         <div>
            {
                items.map((item, index)=>(
-                   
+                   <li key={index} onClick={()=> onClick(item)}>
+{item}
+                   </li>
                ))
            }
         </div>
