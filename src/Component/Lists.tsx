@@ -5,7 +5,7 @@ const Lists = () => {
 const onClick = (text: string): void=> alert()
     return (
         <div>
-            <List items={items} />{""}
+            <List items={items} />{" "}
         </div>
     );
 };
