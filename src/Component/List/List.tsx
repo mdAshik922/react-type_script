@@ -10,7 +10,7 @@ const List = ({items, onClick }:{
                    <li key={index} onClick={()=> onClick(item)}>
 {item}
                    </li>
-               ));
+               ))
            } </div>
     );
 };
