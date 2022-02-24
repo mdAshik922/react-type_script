@@ -5,7 +5,8 @@ import Lists from './Component/Lists';
 
 
 interface Todo{
-
+id: number,
+text: string,
 }
 function App() {
   function reducer(state: Todo[], action:ActionType) {
