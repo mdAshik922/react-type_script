@@ -4,10 +4,12 @@ import './App.css';
 import Lists from './Component/Lists';
 
 function App() {
-
+  function reducer(state, action) {
+    
+  }
 
   const [todos, dispatch] = useReducer(reducer, initialState));
-  
+
   return (
    
     <div className="App">
