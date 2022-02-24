@@ -8,9 +8,16 @@ interface Todo{
 id: number,
 text: string,
 }
-function App() {
-  function reducer(state: Todo[], action:ActionType) {
 
+type ActionType =   | { type: "ADD"; text: string }
+| { type: "REMOVE"; id: number };
+
+
+function App() {
+  function reducer(state: Todo[], action: ActionType) {
+switch (action.type) {
+ 
+}
   }
 
   const [state, dispatch] = useReducer(reducer, []);
