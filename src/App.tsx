@@ -1,19 +1,25 @@
-import React, { useReducer } from 'react';
+import React, { useCallback, useReducer, useRef, useState } from "react";
 import logo from './logo.svg';
 import './App.css';
 import Lists from './Component/Lists';
 
+
+interface Todo{
+
+}
 function App() {
-  function reducer(state, action) {
-    
+  function reducer(state: Todo[], action:ActionType) {
+
   }
 
-  const [todos, dispatch] = useReducer(reducer, initialState));
+  const [state, dispatch] = useReducer(reducer, []);
 
   return (
    
     <div className="App">
-     <Lists/>
+     {/* <Lists/> */}
+
+
     </div>
   );
 }
