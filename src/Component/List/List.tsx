@@ -12,7 +12,7 @@ const List = ({items, onClick }:{
                    </li>
                ))
            } </div>
-    );
+    )
 };
 
 export default List;
